@@ -1,3 +1,4 @@
+
 var playing = false;
 var score;
 var action;
@@ -15,7 +16,7 @@ document.getElementById("startreset").onclick = function(){
 document.getElementById("scorevalue").innerHTML = score;
 		//show count
 		show("timeremaining");
-		timeremaining = 60;
+		timeremaining = 40;
 		
 document.getElementById("timeremainingvalue").innerHTML = timeremaining;
  

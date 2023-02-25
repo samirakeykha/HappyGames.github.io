@@ -1,8 +1,24 @@
+body {
+    background-color: rgba(218, 146, 191, 0.808);
+    font-family: "Raleway", sans-serif;
+
+	margin: bottom 20px ;
+	margin: left 20px ;
+	margin: right 20px ;
+	margin-top: 20px;
+    text-align: center;
+
+}
+
 html{
-	height: 100%;
+	height: 90%;
 	background: radial-gradient(circle, #fff, #ccc);
 	-moz-background: radial-gradient(circle, #fff, #ccc);
 	-webkit-background: radial-gradient(circle, #fff, #ccc);
+}
+.heading {
+    text-align: center;
+    font-size: 3rem;
 }
 #container{
 	Height: 400px;
@@ -31,7 +47,7 @@ html{
 
 #correct {
 	position: absolute;
-	left: 260px;
+	left: 0px;
 	background-color: #42e252;
 	color: white;
 	padding: 11px;
@@ -95,7 +111,7 @@ html{
 }	
 .box:hover, #startreset:hoover{
 	background-color: #9C89f6;
-	color: white;
+	color: rgb(127, 207, 148);
 	box-shadow: 0px 4px #6b54d3;
 	-webkit-box-shadow: 0px 4px #6b54d3;
 	-moz-box-shadow: 0px 4px #6b54d3;
@@ -112,7 +128,7 @@ html{
 }
 #startreset {
 	width: 78px;
-	padding: 10px;
+	padding: 0px;
 	background-color: rgba(255,255,255,0.5);
 	margin: 0 auto;
 	border-radius: 3px;	
@@ -125,6 +141,17 @@ html{
 	transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: rgb(60, 8, 116);
 }
 
 #timeremaining {
@@ -162,3 +189,4 @@ html{
 	z-index: 2;
 	display: none;
 }
+
