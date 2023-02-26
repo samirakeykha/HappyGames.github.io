@@ -1,24 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:none;
+	
+}
+
+@media (max-width: 320px) {
+    .controls-area {
+        width: 100%;
+    }
+
+}
 body {
-    background-color: rgba(218, 146, 191, 0.808);
-    font-family: "Raleway", sans-serif;
-
-	margin: bottom 20px ;
-	margin: left 20px ;
-	margin: right 20px ;
-	margin-top: 20px;
-    text-align: center;
-
+    
+		height: 100%;
+		background: radial-gradient(circle, #3e1a6a, #ccc);
+		-moz-background: radial-gradient(circle, #fff, #ccc);
+		-webkit-background: radial-gradient(circle, #fff, #ccc);
+		margin-top: 100px; text-align: center;
+		font-family: cursive, sans-serif;
+		color:rgb(20, 18, 19);		
 }
 
-html{
-	height: 90%;
-	background: radial-gradient(circle, #fff, #ccc);
-	-moz-background: radial-gradient(circle, #fff, #ccc);
-	-webkit-background: radial-gradient(circle, #fff, #ccc);
-}
+
 .heading {
-    text-align: center;
+   
     font-size: 3rem;
+	margin: 100px auto;
+
 }
 #container{
 	Height: 400px;
@@ -129,7 +139,7 @@ html{
 #startreset {
 	width: 78px;
 	padding: 0px;
-	background-color: rgba(255,255,255,0.5);
+	background-color:   lightyellow;
 	margin: 0 auto;
 	border-radius: 3px;	
 	cursor: pointer;
@@ -143,16 +153,7 @@ html{
 	-moz-transition: all 0.2s;
 }
 
-.btn--red {
-    border-color: red;
-    color: red;
-}
 
-.btn--red:active,
-.btn--red:hover {
-    background-color: darkred;
-    color: rgb(60, 8, 116);
-}
 
 #timeremaining {
 	color: white;
